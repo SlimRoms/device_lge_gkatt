@@ -1,0 +1,17 @@
+[
+  {
+     "repository": "SlimRoms/device_lge_gee-common",
+     "target_path": "device/lge/gee-common",
+     "branch": "jb4.3"
+  },
+  {
+     "repository": "SlimRoms/kernel_lge_geefhd",
+     "target_path": "kernel/lge/geefhd",
+     "branch": "jb4.3"
+  },
+  {
+     "repository": "SlimRoms/proprietary_vendor_lge",
+     "target_path": "vendor/lge",
+     "branch": "jb4.3"
+  }
+]
