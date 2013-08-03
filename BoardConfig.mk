@@ -25,7 +25,7 @@ TARGET_KERNEL_CONFIG := gkatt_bcm-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/geefhd
 
 # inherit from gee-common
--include device/lge/gee-common/BoardConfigCommon.mk
+-include device/lge/geefhd-common/BoardConfigCommon.mk
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := gkatt
@@ -52,4 +52,4 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TARGET_BOARD_INFO_FILE := device/lge/gkatt/board-info.txt
 
 # inherit from the proprietary version
--include vendor/lge/gee/BoardConfigVendor.mk
+-include vendor/lge/geefhd/BoardConfigVendor.mk

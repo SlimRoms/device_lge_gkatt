@@ -26,13 +26,13 @@ $(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/lge/gkatt/overlay
 
 ## common overlays
-DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lge/geefhd-common/overlay
 
 PRODUCT_PACKAGES := \
 	lights.gkatt
 
 # Inherit from gee-common
-$(call inherit-product, device/lge/gee-common/gee-common.mk)
+$(call inherit-product, device/lge/geefhd-common/geefhd-common.mk)
 
 # Recovery
 PRODUCT_COPY_FILES += \
